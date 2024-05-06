@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.send('Hello World! from testing aws')
+  res.send('Hello World! from testing AWS/ update port and nginx')
 })
 
 app.get("/name",(req,res)=>{
